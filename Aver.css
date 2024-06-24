@@ -3,8 +3,8 @@
 
 
 body {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 500px;
+    margin-right: 1000px;
     padding: 0%;
     text-align: center;
   }
@@ -12,8 +12,8 @@ body {
   .container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 50px;
+    margin-bottom: 150px;
   }
 
 
