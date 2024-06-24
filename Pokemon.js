@@ -12,7 +12,7 @@ divj.on("mouseover",ajaxConJQuery)
 console.log(divj);
 
 function ajaxSinJQuery() {
-    var url = "";
+    var url = "https://pokeapi.co/api/v2/pokemon/charizard";
     let tarjetas = document.querySelector("#nPokemon");
     var objXMLHttpRequest = new XMLHttpRequest();
   
@@ -33,7 +33,7 @@ function ajaxSinJQuery() {
 }
 
 function ajaxConJQuery() {
-    var url = "https://pokeapi.co/api/v2/pokemon/";
+    var url = "https://pokeapi.co/api/v2/pokemon/charizard";
     let tarjetas = $("#nPokemon");
     $.ajax({
         url: url,
