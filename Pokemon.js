@@ -12,7 +12,7 @@ divj.on("mouseover",ajaxConJQuery)
 console.log(divj);
 
 function ajaxSinJQuery() {
-    var url = "https://pokeapi.co/api/v2/pokemon/";
+    var url = "";
     let tarjetas = document.querySelector("#nPokemon");
     var objXMLHttpRequest = new XMLHttpRequest();
   
