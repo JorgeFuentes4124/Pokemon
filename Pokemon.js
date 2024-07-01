@@ -21,7 +21,7 @@ function ajaxSinJQuery() {
         if (objXMLHttpRequest.status === 200) {
           let json = JSON.parse(objXMLHttpRequest.responseText);
           tarjetas.data = json;
-          console.log(json);
+          
         } else {
           alert("Error Code: " + objXMLHttpRequest.status);
           alert("Error Message: " + objXMLHttpRequest.statusText);
