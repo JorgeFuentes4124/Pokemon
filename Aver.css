@@ -18,6 +18,10 @@ body {
 }
 
 .card {
+  background-image: url(https://i.pinimg.com/originals/9f/b4/22/9fb422482ab6be8c64a12184d4088d90.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 50%; 
   left: 50%;
@@ -25,7 +29,7 @@ body {
   width: 18rem;
   
   border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
   padding: 20px;
   border: 2px solid #000000; 
 }
@@ -33,6 +37,7 @@ body {
 
 
 .card-title {
+  background-color: #ffffff;
   font-size: 1.5rem;
   color: #000000;
   margin-bottom: 10px;
@@ -65,7 +70,7 @@ button {
 }
 
 .badge {
-  background-color: #ffffff;
+  background-color:#ffffff;
   border: 2px solid #000000; 
   padding: 5px; 
   border-radius: 5px; 
