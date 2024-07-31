@@ -76,7 +76,7 @@ function buscarPorURL(urlPokemon) {
           `" class="btn btn-primary" target="_blank">Pokedex</a>
   </div>
 </div>`;
-        div.innerHTML += html; // Usa += para agregar más tarjetas sin reemplazar
+        div.innerHTML += html;
         console.log(div);
       } else {
         alert("Error Code: " + objXMLHttpRequest.status);
@@ -104,7 +104,7 @@ function buscar() {
           let nombre = json.name;
           let uriImg = json.sprites.other.home.front_default;
 
-          // URL específica para cada Pokémon
+          
           let pokemonId = json.id;
           let pokemonUrls = {
             1: 'https://www.pokemon.com/el/pokedex/bulbasaur',
@@ -128,9 +128,9 @@ function buscar() {
             19:'https://www.pokemon.com/el/pokedex/rattata',
             20:'https://www.pokemon.com/el/pokedex/raticate',
           
-           // Agrega más mappings según sea necesario
+           
           };
-          let pokedexUrl = pokemonUrls[pokemonId] || '#'; // URL específica o fallback
+          let pokedexUrl = pokemonUrls[pokemonId] || '#';
 
           let html =
             `<div class="card" style="width: 18rem;">
