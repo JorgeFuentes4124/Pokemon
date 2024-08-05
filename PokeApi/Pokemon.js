@@ -55,7 +55,7 @@ function buscarPorURL(urlPokemon) {
          18:'https://www.pokemon.com/el/pokedex/pidgeot',
          19:'https://www.pokemon.com/el/pokedex/rattata',
          20:'https://www.pokemon.com/el/pokedex/raticate',
-          
+         21:'https://www.pokemon.com/el/pokedex/scizor',
         };
         let pokedexUrl = pokemonUrls[pokemonId] || '#'; 
 
