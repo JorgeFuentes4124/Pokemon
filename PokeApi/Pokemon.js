@@ -10,9 +10,7 @@ function solicitudAJAX() {
         console.dir(json);
 
         tarjetas.data = json;
-        for (let i = 0; i < json.results.length; i++) {
-          buscarPorURL(json.results[i].url);
-        }
+          buscarPorURL(json.results[0].url);
       } else {
         alert("Error Code: " + objXMLHttpRequest.status);
         alert("Error Message: " + objXMLHttpRequest.statusText);
